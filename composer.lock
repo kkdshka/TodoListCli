@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "085ff261121370684e2debfeb1d2ddce",
+    "hash": "935558d31198e0ceb4d1af6fa0d5d63d",
     "content-hash": "f1b0116d53e49325519f301fbf67d430",
     "packages": [
         {
@@ -13,14 +13,14 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kkdshka/TodoList.git",
-                "reference": "41220a49d91b6751b67919a0ef983b606f2a998f"
+                "reference": "ee7992d03d4523ac06667d4a63c9ae69a80564e9"
             },
             "require": {
                 "php": "~7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.4.*",
-                "phpunit/phpunit-skeleton-generator": "*"
+                "phake/phake": "2.*",
+                "phpunit/phpunit": "5.4.*"
             },
             "type": "project",
             "autoload": {
@@ -39,7 +39,7 @@
                 }
             ],
             "description": "Demo educational project",
-            "time": "2016-09-30 11:47:36"
+            "time": "2017-01-12 17:41:56"
         }
     ],
     "packages-dev": [
