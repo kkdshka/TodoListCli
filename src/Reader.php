@@ -14,6 +14,6 @@ class Reader {
      * @return string
      */
     public function read() : string {
-        return fgets(STDIN);
+        return rtrim(fgets(STDIN), "\r\n");
     } 
 }
